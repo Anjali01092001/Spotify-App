@@ -1,38 +1,343 @@
 .App {
-  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navele {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.leftNav {
+  margin-right: 4px;
+  line-height: 0.5 rem;
+  background-color: black;
+  height: 74rem;
+  width: 15rem;
+  position: fixed;
+  z-index: 6;
+}
+
+.topnav {
+  position: fixed;
+  width: 82rem;
+  margin-left: -33.8rem;
+  z-index: 5;
+}
+
+.spotifylogo {
+  margin-top: 17px;
+  margin-left: 15px;
+  height: 40px;
+}
+
+.hml,
+.cl {
+  margin-left: 20px;
+}
+.login {
+  border-radius: 2rem;
+}
+.element1 {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+.element2 {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+.nav-item {
+  color: rgb(255, 253, 253);
+}
+.loginsign {
+  display: flex;
+  margin-left: 65rem;
+}
+.english {
+  margin-top: 12rem;
+  margin-left: 2.5rem;
+}
+.eng {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: black;
+  border: 0.5px solid rgb(249, 246, 246);
+  color: white;
+  border-radius: 3rem;
+}
+.size {
+  height: 1.5rem;
+}
+li {
+  color: beige;
+}
+.home {
+  z-index: 1;
+  margin-left: -33.4rem;
+  height: 70rem;
+  background-color: rgb(23, 22, 22);
+}
+.focus {
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin-top: -2rem;
+  display: flex;
+}
+.card {
+  background-color: rgb(12, 11, 11);
+  width: 11rem;
+  height: 15rem
+}
+.card:hover {
+  background-color: rgba(69, 69, 69, 0.531);
+}
+.hoverplay {
+  height:4px;
+  width: 4px;
+  margin-left: 7.5rem;
+  margin-top: 6rem;
+  position: absolute;
+  z-index: 2;
+}
+ .hoverplay:hover{
+  height: 2.5rem;
+  width: 2.5rem;
+} 
+.card-img-top { 
+  z-index: 1;
+  position: relative;
+  padding: 0.5rem;
+  height: 9.5rem;
+}
+.card-img-top:hover + .hoverplay{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.h3 {
+  margin-left: 15px;
+  color: antiquewhite
+}
+.h3:hover {
+  text-decoration: underline;
+}
+.h6 {
+  margin-top: 30px;
+  margin-right: 30px;
+  color: rgb(172, 171, 169);
+}
+.h36 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.card-text {
+  color: rgb(127, 129, 130);
+  font-size: 0.9rem;
+}
+
+.search {
+  margin-left: -34rem;
+  margin-top: 3rem;
+  height: 50rem;
+  background-color: rgb(23, 22, 22);
+  padding: 1.5rem;
+}
+
+.searchbar {
+  position: absolute;
+  font-size: 1rem;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  width: 20rem;
+  margin-left: 20px;
+}
+
+.iconsearch {
+  background-color: rgb(245, 247, 248);
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: none;
+  width: 20rem;
+  margin-left: 10px;
+}
+
+.r1 {
+  /* padding:5px; */
+  display: flex;
+  height: 210px;
+}
+
+.seaimg {
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.piano {
+  position: relative;
+  background-color: rgb(16, 16, 16);
+  height: 45rem;
+  margin-left: -34rem;
+}
+
+.top1 {
+  margin-top: 3rem;
+  display: flex;
+  padding: 2rem;
+  background-color: rgba(99, 120, 148, 0.742);
+}
+
+.top11 {
+  border-radius: 2rem;
+  height: 15rem;
+  box-shadow: 10px 10px 10px 10px rgba(53, 52, 52, 0.429);
+}
+
+.top12 {
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.top121 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.top122 {
+  color: white;
+  font-size: 5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top123 {
+  color: rgba(255, 255, 255, 0.905);
+}
+
+.top124 {
+  color: rgba(252, 248, 248, 0.461);
+}
+
+.top2 {
+  position: relative;
+  margin-top: -3rem;
+  display: flex;
+  background-color: rgb(40, 48, 58);
+  padding: 2rem;
+}
+
+.play {
+  height: 3rem;
+}
+
+.play:hover {
+  height: 3.2rem;
+}
+.playbtn{
+  border:none;
+  background-color: rgb(40, 48, 58);
+}
+.top3 {
+  padding: 2rem;
+  background-color: rgb(40, 48, 58);
+}
+
+th,
+td {
+  color: rgba(119, 119, 118, 0.773);
+  font-family: monospace
+}
+
+.btmbar {
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
+  background-image: linear-gradient(45deg, rgb(217, 13, 228), rgb(88, 88, 241));
+  height: 65px;
+  width: 95rem;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.btmsign1 {
+  padding: 1rem;
+  color: antiquewhite;
+}
+
+.btmsign2 {
+  padding: 1rem;
+}
+
+.signup{
+  background-color: rgb(247, 249, 251);
+  margin-left: -50rem;
+  margin-top: -10px;
+  height:100rem;
+  width:153.3%;
+  z-index:12;
+  position: absolute;
+  font-weight: bold;
+} 
+.signup1 {
+  margin-left: -45rem;
+  text-align: center;
+  margin-top: 4rem;
+  height: 100px;
+  z-index: 13;
+}
+.facelogo {
+  height:2rem;
+  border-radius: 5rem;
+}
+.signup2{
+  margin-left: 35rem;
+  text-align: left;
+  margin-top: 10rem;
+  z-index: 13;
+}
+.form-control{
+  width:30rem;
+}
+.signbtn{
+  padding: 0.8rem;
+  border-radius: 2rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  border: none;
+  background-color: rgb(47, 192, 105);
+  font-weight: bold;
+  margin-left: 15rem;
+}
+.cross{
+  margin-left: 6rem;
+  margin-top: 1rem;
+  position:absolute
+}
+.logup2{
+  margin-left: 35rem;
+  text-align: left;
+  margin-top: 19rem;
+  z-index: 13;
+  font-weight: bold;
+}
+.Lib{
+  margin-top: 3rem;
+  color:rgb(251, 249, 247);
+  padding: 4rem;
+}
+.btnliun{
+  height:1px;
+  border: none;
+  color:rgb(46, 53, 61);;
+  background-color: rgb(40, 48, 58);
+}
+.signbtn1{
+  padding: 0.8rem;
+  border-radius: 2rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  border: none;
+  background-color: rgb(47, 192, 105);
+  font-weight: bold;
+  margin-left: 7rem;
 }
