@@ -14,7 +14,7 @@ const Piano = () => {
                     <div className="top12">
                         <h6 className="top121">Playlist</h6>
                         <h1 className="top122">Peaceful Piano</h1>
-                        <p className="top123">Relax and indulge with beautiful piano pieces</p>
+                        <p className="top123">Relax and indulge with beautful piano pieces</p>
                         <p className="top124"><img style={{ height: "2rem" }} src="spoti.png" alt="." /> Spotify-6,944,864likes- 311songs, about 11 hr</p>
                     </div>
                 </div>
